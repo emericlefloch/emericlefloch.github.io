@@ -1,14 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>This is my index.html file</title>
-  </head>
-  <body>
-    <h1>my TESTS ! </h1>
-    <p>Just a try....</p>
-    <p>Firts go to Settings (on the right-most side), then select Pages and change the option to "Github Actions" instead of "Display from a branch".</p>
-    <p>Then create the deployment workflow : create the file .github/workflows/deploy.yml as in this current repository.</p>
-    <p> Then go to Actions and select the latest workflow run. </p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Emeric Le Floc'h">
+  <title>Emeric Le Floc'h</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="./images/logo_cea.jpg">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body data-root="." data-page="home">
+  <div id="site-header"></div>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-bg"></div><div class="hero-fade"></div>
+    <div class="hero-in">
+      <div>
+        <h1 class="page-title" style="margin: 0 50px 0">Emeric LE FLOC'H</h1>
+        <p class="hero-role" style="margin: 20px 150px 0">  Astrophysicist</p>
+      </div>
+      <div class="portrait"><img src="images/back_low.gif" alt="Emeric LE FLOC'H"></div>
+    </div>
+  </header>
+
+  <!-- Personal -->
+  <section id="about">
+    <div class="wrap join-flex">
+      <div class="sec-eyebrow" style="font-size:1.7rem ; margin: 35px 30px 25px">Hello and welcome to my page !</div>
+      <!-- <h2 class="sec-title">Personal</h2> -->
+           <p class="sec-lead" style="font-size:1.1rem ; max-width:650px ; margin: -40px 60px 20px;color:rgba(255,255,255,1); text-align:justify"  >I am Emeric 
+            Le Floc'h, a senior staff astronomer working in the <a href="https://irfu.cea.fr/dap">Astrophysics division</a> of the IRFU institute at
+             CEA-Saclay (France). The questions I seek to answer relate to galaxy formation
+             and galaxy evolution, which I try to address using distant cosmic explosions. Some of my favorites
+             are the so-called Gamma-Ray Bursts, known as the most powerful phenomena in the Universe 
+             after the Big Bang.
+             </p>
+      <div style="flex:1;min-width:300px;margin:-27px 20px 20px">
+         <img src="images/logo_cea.jpg" ;alt="logo CEA" style="width: 130px; height: auto;">
+      </div>
+    </div>
+    <div class="wrap" style="text-align:left">
+      <h2 class="sec-eyebrow"  style="margin: 10px 100px 0px; color:rgba(255,255,255,1)">
+         <i class="fas fa-graduation-cap"></i> &nbsp; Education
+      </h2> 
+      <ul> 
+        <style>
+          li {
+            margin-bottom: 0px; /* Adjust this value to increase/decrease vertical space */
+          }
+        </style>
+        <div class="sec-lead" style="font-size:1rem ; max-width:980px ; margin: -10px 150px 0px;color:rgba(255,255,255,.7); text-align:left">
+          <li><span style="color: white;"><strong>HDR, 2014, Université Paris-Diderot:</strong></span> Signature of 
+            cosmic star formation across the electromagnetic spectrum</li>
+          <li><span style="color: white;"><strong>PhD, 2003, Université Paris XI:</strong></span> Massive star formation at low and high redshift, probed by 
+            luminous infrared galaxies and Gamma-Ray Burst hosts</li>
+        </div>
+      </ul>
+    <!-- </div>
+    <div class="wrap" style="margin: 30px 100px 0px; text-align:left"> -->
+      <h2 class="sec-eyebrow"  style="margin: 10px 100px 0px; color:rgba(255,255,255,1)">
+        <i class="fas fa-university"></i> &nbsp; Past employment
+      </h2> 
+      <ul> 
+        <style>
+          li {
+            margin-bottom: 0px; /* Adjust this value to increase/decrease vertical space */
+          }
+        </style>
+        <div class="sec-lead" style="font-size:1rem ; max-width:980px ; margin: -10px 150px 0px;color:rgba(255,255,255,.7); text-align:left">
+          <li>2006 &mdash; 2009: Spitzer Post-doctoral Fellow, University of Hawaii (USA)</li>
+          <li>2003 &mdash; 2006: Research Associate, University of Arizona (USA)</li>
+          <li>1999 &mdash; 2000:  National service, European Southern Observatory (La Silla, Chile)</li>
+        </div>
+      </ul>
+    </div>
+
+    <br> <br> 
+  </section> 
+
+
+
+<!-- Research -->
+  <section class="band2" id="research" style="padding-top:0px">
+    <div class="wrap">
+      <h2 style="font-size:2.6rem;margin: 30px 30px 0px;color:var(--ink)">Research</h2>
+   <br> <br>  <br> <br>  <br> <br>  <br> <br> 
+    </div>
+  </section>
+
+<!-- Teaching -->
+  <section class="band" id="teaching" style="padding-top:0px">
+    <div class="wrap">
+      <h2 style="font-size:2.6rem;margin: 30px 30px 0px;color:var(--ink)">Teaching</h2>
+   <br> <br>  <br> <br>  <br> <br>  <br> <br> 
+    </div>
+  </section>
+
+
+<!-- Highlights -->
+  <section class="band3" id="highlights" style="padding-top:0px">
+    <div class="wrap">
+      <h2 style="font-size:2.6rem;margin: 30px 30px 0px;color:black">Highlights</h2>
+   <br> <br>  <br> <br>  <br> <br>  <br> <br> 
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section class="band" id="contact" style="padding-top:0px">
+    <div class="wrap">
+     <div class="wrap join-flex" style="padding:0px 0"> 
+      <div style="max-width:560px">
+       <!-- <div class="sec-eyebrow">Contact</div> 
+      <h2 class="sec-title">Get in touch</h2>
+      <div class="grid2" style="align-items:start">. 
+        <div class="contact-box"> -->
+          <h2 style="color:var(--ink)">Get in touch</h2>
+          <p style="color:var(--muted);margin:-10px 0 18px">
+            Département d'Astrophysique, UMR AIM <br>
+            Orme des Merisiers, Batiment 709 <br>
+            CEA-Saclay <br>
+            91191 Gif-sur-Yvette, FRANCE
+          </p>
+          <a class="btn btn-primary" href="mailto:emeric.lefloch@cea.fr"><i class="fas fa-envelope"></i>&nbsp; Email me</a>
+          <p style="color:var(--muted);margin:8px 0 25px">
+          </p>
+        <!-- </div>
+         <div class="map-embed">
+          <iframe src="https://www.google.com/maps?q=50+St+George+St,+Toronto,+ON+M5S+3H4,+Canada&hl=en&z=16&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Office location"></iframe>
+        </div> 
+      </div> -->
+         </div>
+            </div>
+
+    </div>
+  </section>
+
+
+  <div id="site-footer"></div>
+  <script src="site-shell.js"></script>
+  
+</body>
 </html>
